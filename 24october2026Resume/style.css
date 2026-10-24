@@ -1,0 +1,51 @@
+#heading{
+    text-align: center;
+    background-color: rgb(220, 227, 172);
+    font-family: 'Lucida Sans';
+}
+
+#mainbox{
+    height: 500px;
+    background-color: rgb(153, 187, 238);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+ #certi,#awsproject,#coding{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-family: cochin;
+    background-color: rgb(194, 156, 232);
+    border-color: black;
+    border-style: solid;
+    border-radius:10px
+
+    
+    
+} 
+#gitproject{
+    height: 200px;
+    width: 900px;
+    background-color: rgb(172, 156, 156);
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-radius:10px
+    
+} 
+#leetcodebutton,#gfgbutton,#nextworkbutton{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(178, 236, 208);
+    border-color: black;
+    border-style: solid;
+    border-radius:10px
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+}
