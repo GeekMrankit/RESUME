@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #heading{
     text-align: center;
     background-color: rgb(220, 227, 172);
@@ -5,7 +9,7 @@
 }
 
 #mainbox{
-    height: 500px;
+    height: 600px;
     background-color: rgb(153, 187, 238);
     display: flex;
     flex-direction: row;
@@ -14,29 +18,35 @@
     border-style: solid;
 }
  #certi,#awsproject,#coding{
-    height: 200px;
-    width: 200px;
+    height: 280px;
+    width: 400px;
     text-align: center;
     font-family: cochin;
     background-color: rgb(194, 156, 232);
     border-color: black;
     border-style: solid;
     border-radius:10px
-
-    
-    
 } 
 #gitproject{
-    height: 200px;
-    width: 900px;
+    
+    height: 260px;
+    width: 1230px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
     background-color: rgb(172, 156, 156);
-    text-align: center;
     border-color: black;
     border-style: solid;
     border-radius:10px
     
 } 
-#leetcodebutton,#gfgbutton,#nextworkbutton{
+#leetcard{
+    
+    height: 160px;
+    width: 390px;
+}
+#leetcodebutton,#gfgbutton,#nextworkbutton,#verifybutton{
     height: 30px;
     width: 150px;
     background-color: rgb(178, 236, 208);
@@ -45,7 +55,15 @@
     border-radius:10px
 }
 
+
 #logo{
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
+}
+#projbox{
+    height: 30px;
+    width: 800px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    
 }
