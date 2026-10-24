@@ -42,6 +42,7 @@
     
 } 
 #leetcard{
+    
     height: 160px;
     width: 390px;
 }
@@ -65,4 +66,7 @@
     background-color: rgb(252, 252, 252);
     border-radius: 5px;
     
+}
+#contactform{
+    font-size: large;
 }
